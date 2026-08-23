@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "crates/adpters",
+    "crates/application",
+    "crates/composition",
+    "crates/domain",
+    "crates/ui"
+]
+
+resolver = "2"
+
+[workspace.package]
+edition="2024"
