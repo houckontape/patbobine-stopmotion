@@ -4,3 +4,5 @@ version = "0.1.0"
 edition.workspace = true
 
 [dependencies]
+domain = { path = "../domain" }
+uuid = "1.0"

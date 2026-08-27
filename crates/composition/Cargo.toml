@@ -3,4 +3,10 @@ name = "composition"
 version = "0.1.0"
 edition.workspace = true
 
+[[bin]]
+name = "patbobine-stopmotion"
+path = "bootstrap/main.rs"
+
 [dependencies]
+domain = { path = "../domain" }
+application = { path = "../application" }
